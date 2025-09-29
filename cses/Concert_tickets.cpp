@@ -13,7 +13,7 @@ int main() {
     multiset<long long> tickets;
     for (int i = 0; i < n; i++) {
         long long x;
-        cin >> x;
+        cin >> x; 
         tickets.insert(x);
     }
     
