@@ -8,7 +8,7 @@ int main() {
     int res = n ;
     vector<int> arr ;
     --n ;
-    while(n--){
+    while(n--){ 
         int a ;
         cin >> a ;
         arr.push_back(a) ;
@@ -26,4 +26,5 @@ int main() {
         cout << res << endl ;
     }
     return 0;
+
 }
